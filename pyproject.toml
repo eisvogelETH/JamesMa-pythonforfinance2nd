@@ -3,7 +3,7 @@ name = "JamesMa-pythonforfinance2nd"
 version = "0.1.0"
 description = "A github repo for the Book Mastering Python for Finance - Second Edition by James Ma Weiming"
 authors = ["eisvogel.eth <eisvogel.eth>"]
-license = "MIT"
+license = "GPL-3.0 license"
 
 [tool.poetry.dependencies]
 python = "^3.11"
