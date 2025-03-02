@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "A github repo for the Book Mastering Python for Finance - Second Edition by James Ma Weiming"
 authors = ["eisvogel.eth <eisvogel.eth>"]
 license = "GPL-3.0 license"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -16,6 +17,7 @@ mpl-finance = "*"
 scikit-learn = "*"
 seaborn = "*"
 v20 = "*"
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
