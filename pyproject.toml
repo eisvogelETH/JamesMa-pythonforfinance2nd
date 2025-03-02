@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "JamesMa-pythonforfinance2nd"
+version = "0.1.0"
+description = "A github repo for the Book Mastering Python for Finance - Second Edition by James Ma Weiming"
+authors = ["eisvogel.eth <eisvogel.eth>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.1.1"
+quandl = "*"
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+mpl-finance = "*"
+scikit-learn = "*"
+seaborn = "*"
+v20 = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
