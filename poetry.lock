@@ -1506,18 +1506,39 @@ files = [
 ]
 
 [[package]]
-name = "mpl-finance"
-version = "0.10.1"
-description = "Finance plots using matplotlib"
+name = "mplfinance"
+version = "0.12.10b0"
+description = "Utilities for the visualization, and visual analysis, of financial data"
 optional = false
 python-versions = "*"
 files = [
-    {file = "mpl_finance-0.10.1-py3-none-any.whl", hash = "sha256:63e712b300f2d479930a5c6e70a1c51ef31c330a1a7f4d2d3182a3706c3540f5"},
-    {file = "mpl_finance-0.10.1.tar.gz", hash = "sha256:1b33c11ecf11ea0824c6493707a410dcfa542ed498f42e37f28958a0e5d4090e"},
+    {file = "mplfinance-0.12.10b0-py3-none-any.whl", hash = "sha256:76d3b095f05ff35de730751649de063bea4064d0c49b21b6182c82997a7f52bb"},
+    {file = "mplfinance-0.12.10b0.tar.gz", hash = "sha256:7da150b5851aa5119ad6e06b55e48338b619bb6773f1b85df5de67a5ffd917bf"},
 ]
 
 [package.dependencies]
 matplotlib = "*"
+pandas = "*"
+
+[[package]]
+name = "nasdaq-data-link"
+version = "1.0.4"
+description = "Package for Nasdaq Data Link API access"
+optional = false
+python-versions = ">= 3.7"
+files = [
+    {file = "Nasdaq Data Link-1.0.4.tar.gz", hash = "sha256:7beae38ff0b376db24a50d6b8445c94832ebdd88737f6aafbc81a7dbdda25ca1"},
+    {file = "Nasdaq_Data_Link-1.0.4-py2.py3-none-any.whl", hash = "sha256:214a620551da1c7521476839fb96f932234d4d78e7ba44310722709ca37b0691"},
+]
+
+[package.dependencies]
+inflection = ">=0.3.1"
+more-itertools = "*"
+numpy = ">=1.8"
+pandas = ">=0.14"
+python-dateutil = "*"
+requests = ">=2.7.0"
+six = "*"
 
 [[package]]
 name = "nbclient"
@@ -2345,26 +2366,6 @@ files = [
 cffi = {version = "*", markers = "implementation_name == \"pypy\""}
 
 [[package]]
-name = "quandl"
-version = "3.7.0"
-description = "Package for quandl API access"
-optional = false
-python-versions = ">= 3.6"
-files = [
-    {file = "Quandl-3.7.0-py2.py3-none-any.whl", hash = "sha256:0e3e5dc60fd057c73c67380b1b0f2e3dc0e4c500fb5e6e146ac3a3c0d992cd1d"},
-    {file = "Quandl-3.7.0.tar.gz", hash = "sha256:6e0b82fbc7861610b3577c5397277c4220e065eee0fed4e46cd6b6021655b64c"},
-]
-
-[package.dependencies]
-inflection = ">=0.3.1"
-more-itertools = "*"
-numpy = ">=1.8"
-pandas = ">=0.14"
-python-dateutil = "*"
-requests = ">=2.7.0"
-six = "*"
-
-[[package]]
 name = "referencing"
 version = "0.36.2"
 description = "JSON Referencing + Python"
@@ -3077,4 +3078,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "68642927eba0af961ed84e60d10a81b0ffaa67b1e9bb63d8b1dcdb80df273701"
+content-hash = "b8cc59908d888a0609f187f18736caaf7bfb09ebad7f5ca84109fbfac7501911"
